@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6ad97526.css",
+    "main.js": "/static/js/main.f3d39470.js",
+    "static/media/Spinner.gif": "/static/media/Spinner.336beaf7dc0e8739befb.gif",
+    "static/media/noFriends.png": "/static/media/noFriends.b3b16c8a3dde002290ed.png",
+    "static/media/tickmark.png": "/static/media/tickmark.2cd3229b699580e6a7cf.png",
+    "index.html": "/index.html",
+    "static/media/arrow-left.svg": "/static/media/arrow-left.83aa775a65892efff8dd306eccced5ba.svg",
+    "main.6ad97526.css.map": "/static/css/main.6ad97526.css.map",
+    "main.f3d39470.js.map": "/static/js/main.f3d39470.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ad97526.css",
+    "static/js/main.f3d39470.js"
+  ]
+}
