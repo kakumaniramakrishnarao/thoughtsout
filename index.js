@@ -1,5 +1,5 @@
 const express=require('express')
-const cors=require('cors')
+// const cors=require('cors')
 const mongoose=require('mongoose')
 const md5=require('md5')
 const jwt=require('jsonwebtoken')
@@ -8,7 +8,7 @@ const nodemailer=require('nodemailer')
 const app=express()
 
 app.use(express.json())
-app.use(cors({origin:'*'}))
+// app.use(cors({origin:'*'}))
 
 app.use(express.static('build'))
 
@@ -367,6 +367,6 @@ app.post('/signup',(req,res)=>{
 
 
 
-app.listen(4000,()=>{
+app.listen(process.env.PORT || 4000,()=>{
     console.log('server running');
 })
