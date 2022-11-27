@@ -14,7 +14,7 @@ app.use(express.static(__dirname + '/build'))
 
 var url = 'mongodb+srv://rk:hSoqRiMJyF6le2uT@cluster0.anpnddn.mongodb.net/?retryWrites=true&w=majority'
 var localHost = 'mongodb://localhost:27017/blogdata'
-mongoose.connect(localHost, {
+mongoose.connect(url, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
