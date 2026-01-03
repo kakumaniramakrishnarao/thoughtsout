@@ -12,7 +12,7 @@ app.use(express.json())
 
 app.use(express.static(__dirname + '/build'))
 
-var url = 'mongodb+srv://rk:hSoqRiMJyF6le2uT@cluster0.anpnddn.mongodb.net/?retryWrites=true&w=majority'
+var url = 'mongodb+srv://ram:ram@cluster0.usq3l8q.mongodb.net/?appName=Cluster0'
 var localHost = 'mongodb://localhost:27017/blogdata'
 mongoose.connect(url, {
   useNewUrlParser: true,
@@ -374,3 +374,4 @@ app.get('*', function (req, res) {
 app.listen(process.env.PORT || 4000, () => {
   console.log('server running');
 })
+
